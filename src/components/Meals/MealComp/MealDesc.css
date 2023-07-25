@@ -1,0 +1,39 @@
+.meal {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    /* border-bottom: 1px solid #ccc; */
+    /* border: 3px solid #ccc; */
+    padding: 1rem;
+    border-radius: 7px;
+  }
+
+  .meal_sec {
+    border: 3px solid #ccc;
+    border-radius: 7px;
+    text-align: center;
+  }
+
+  .img_sec img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .meal div h3 {
+    margin: 0 0 0.25rem 0;
+    color: black;
+  }
+  
+  .description {
+    font-style: italic;
+  }
+  
+  .price {
+    margin-top: 0.25rem;
+    font-weight: bold;
+    color: #ad5502;
+    font-size: 1.25rem;
+  }
