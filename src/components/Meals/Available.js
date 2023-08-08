@@ -7,7 +7,7 @@ import axios from 'axios';
 export default function Available() {
   const [data,setData]=useState([]);
   useEffect(()=>{ 
-      axios.get('https://varuncafe.herokuapp.com/items')
+      axios.get('https://food-api-1.vercel.app/api/items')
           .then(response => {
               console.log(response)
               setData(response.data)
